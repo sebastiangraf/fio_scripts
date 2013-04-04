@@ -93,6 +93,8 @@ graphit <- function(
          rr <- subset(rr,rr['name'] == i_name )
          cat("rr filtered for name=",i_name,"\n");
          print(rr)
+         i_bs = "8K"
+         i_scalex = "users"
       } else {
          rr <- subset(rr,rr['name'] == "randread" )
          i_bs = "8K"
@@ -454,8 +456,8 @@ graphit <- function(
   #
   # ms10 SUCCESS overlay on top graph ( latency lines )
   #
-    op <- barplot(ms10, col=c("#C6D4F8", "#C9FACF",  "#FFF6A0"),ylim =c(0,1), xlab="", ylab="",border=NA,space=0,yaxt="n",xaxt="n") 
-    par(new = TRUE )
+#    op <- barplot(ms10, col=c("#C6D4F8", "#C9FACF",  "#FFF6A0"),ylim =c(0,1), xlab="", ylab="",border=NA,space=0,yaxt="n",xaxt="n") 
+#    par(new = TRUE )
 
   # AVERGE get's ploted twice because there has to be something to initialize the graph
   # whether that something is really wanted or used, the graph has to be initialized
