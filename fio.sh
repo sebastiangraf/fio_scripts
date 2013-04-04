@@ -34,7 +34,7 @@ DIRECTORY="."
 OUTPUT="."
 TESTS="all"
 SECS="60"
-MEGABYTES="65536"
+MEGABYTES="512"
 # by default  don't force the run, ie prompt for confirmations
 FORCE="n"
 CREATE=0
