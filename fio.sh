@@ -30,7 +30,7 @@ INITIALIZE=0
 # by default  don't remove the data file after the tests
 REMOVE=0
 BINARY="./fio"
-DIRECTORY="/domain0/fiotest"
+DIRECTORY="."
 OUTPUT="."
 TESTS="all"
 SECS="60"
